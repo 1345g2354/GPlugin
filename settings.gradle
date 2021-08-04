@@ -1,0 +1,4 @@
+include ':wowplugin'
+include ':buildsrc'
+include ':app'
+rootProject.name = "GPlugin"

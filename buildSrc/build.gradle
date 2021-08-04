@@ -1,0 +1,25 @@
+//repositories{
+//    jcenter()
+//    google()
+//    mavenCentral()
+//
+//}
+//
+//dependencies {
+//    implementation  'com.android.tools.build:gradle:4.1.0'
+//    implementation  'de.defmacro:eclipse-astparser:8.1'
+//}
+
+apply plugin: 'groovy'
+dependencies {
+    //gradle sdk
+    implementation gradleApi()
+    //groovy sdk
+    implementation localGroovy()
+
+    implementation  'de.defmacro:eclipse-astparser:8.1'
+}
+
+repositories {
+    jcenter()
+}
